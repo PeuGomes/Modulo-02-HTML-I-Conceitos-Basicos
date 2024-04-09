@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
 }
-
+/*table*/
 table{
     -webkit-box-shadow:  12px 14px 6px 5px rgba(0, 0, 0,0.24);
     box-shadow: 12px 14px 6px 5px rgba(0, 0, 0,0.24);
