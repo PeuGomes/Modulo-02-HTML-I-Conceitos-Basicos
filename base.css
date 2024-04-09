@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    -webkit-box-shadow:  12px 14px 6px 5px rgba(0, 0, 0,0.24);
+    box-shadow: 12px 14px 6px 5px rgba(0, 0, 0,0.24);
+    border: solid 1px gray;
+}
+
+table thead th{
+    background-color: black;
+    color: white;
+}
+
+table thead td{
+    background-color: black;
+    color: white;
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: #f1f1f1;
+}
+
+table tbody tr:hover td{
+    background-color: #E9E9E9;
+    cursor: pointer;
+}
+
+.contact-info {
+    margin-bottom: 30px; 
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 5px; 
+}
+
+
+form {
+    width: 100%;
+    max-width: 400px; 
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+form h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; 
+}
+
+.form-group label {
+    margin-right: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    flex: 1; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between; 
+}
+
+form button {
+    padding: 10px 59px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button[type="reset"] {
+    background-color: #dc3545;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 25%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: lightgrey;
+    min-height: 150px;
+}
