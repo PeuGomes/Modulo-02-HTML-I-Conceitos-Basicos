@@ -70,4 +70,4 @@ No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** d
 3. **Menu** e **Footer** padrões em todas as páginas.
 
 Desafio está feito! Tive que acrescentar algumas coisas que não deu no curso até o momento!
-Obs: para de ensinar cursos com tudo separado principalmente tags e CSS!
+Obs: para de ensinar cursos com tudo separado principalmente tags e CSS!!
